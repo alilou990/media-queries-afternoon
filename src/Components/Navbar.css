@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap');
+.nav-main-container{
+    
+}
+
+
+.navbar {
+    height: 14vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 10
+}
+
+.nav-title{
+    color: #FBD249;
+    font-size: 1.75em;
+    margin-left: 140px;
+    font-family: 'Kaushan Script', cursive;
+    font-style: italic;
+    letter-spacing: 1px;
+    z-index: 10;
+}
+
+.menu-btn{
+    display: none;
+    
+}
+
+.nav-menu{
+    font-size: 90%;
+    color: white;
+    margin-right: 140px;
+    display: flex;
+
+}
+
+.nav-menu > li:hover{
+    color: #FBD249;
+    cursor: pointer;
+}
+
+.nav-menu > li {
+    margin: 15px;
+    letter-spacing: 1.5px;
+    transform: uppercase;
+}
+
+.menu{
+    position: fixed;
+    top: -250px;
+    height: 150px;
+    width: 100%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-size: 90%;
+    background: #212629;
+    transition: 500ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu > li{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.slide{
+    top: 50px;
+}
+
+.menu > li:hover {
+    cursor: pointer;
+    color: #FBD249
+}
+@media (min-width: 992px){
+    
+}
+
+@media (max-width: 992px){
+    .navbar{
+        height: 8vh;
+        background: #212629;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 10;
+    }
+    .menu-btn{
+        display: flex;
+        height: 5vh;
+        width: 70px;
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        color: white;
+        margin-right: 60px;
+        border: none;
+        border-radius: 6%;
+        background: #FBD249;
+        z-index: 10;
+    }
+    .menu-btn:hover{
+        cursor: pointer;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .nav-title{
+        font-size: 1.50em;
+        margin-left: 60px;
+    }
+
+}
+
